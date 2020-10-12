@@ -1,2 +1,2 @@
 FROM nginx:latest
-#COPY static-html-directory /usr/share/nginx/html
+RUN cd /usr/share/nginx/html; apt-get update; apt-get install git; git clone https://github.com/Pisich/pisich.github.io
