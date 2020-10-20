@@ -1,5 +1,5 @@
 # Dockerized-pisich.github.io
-Dockerized version of my portfolio web page hosted with Nginx.
+Docker container of my portfolio web page hosted with Nginx.
 
 ## Building the container
 To build the container you must have docker installed in your system.</br>
@@ -17,7 +17,7 @@ docker build -t pisich-webpage:1.0 .
 #Run the container
 docker run -d -p 8080:80 pisich-webpage:1.0
 ```
-Now that everything is set up you can use the command ```docker ps``` to see the container running and you can access localhost:8080 to see the webpage runnning.
+Now that everything is set up you can use the command ```docker ps``` to see the container running and you can access localhost:8080 on your machine to see the webpage runnning.
 
 ## Contributions
 Note that this program is in early development, if you would like to see a feature added, feel free to submit an issue or a pull request.
