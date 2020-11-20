@@ -20,7 +20,7 @@ docker run -d -p 8080:80 pisich-webpage:1.0
 Now that everything is set up you can use the command ```docker ps``` to see the container running and you can access localhost:8080 on your machine to see the webpage runnning.
 
 ## Contributions
-Note that this program is in early development, if you would like to see a feature added, feel free to submit an issue or a pull request.
+If you would like to see a feature added, feel free to submit an issue or a pull request.
 
 
 You can also fork this repository and host your own websites!
